@@ -1,37 +1,6 @@
-# fact_checker
+Web Crawler: Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web and that is typically operated by search engines for the purpose of Web indexing (web spidering).
+Python is chosen for the development of web crawler because of it's relatively lower learning curve and higher optimization.
 
-An AI-based fact checker application.
-
-## Overview
-
-This application verifies the authenticity of articles by categorizing them on a scale of 1 to 5:
-
-- **1**: Trusted News
-- **2**: Satire
-- **3**: Hoax
-- **4**: Propaganda
-
-Additionally, it includes a web crawler that helps locate the original article for the user.
-
-## Features
-
-- **Article Verification**: Analyze the content of an article and classify its authenticity.
-- **Web Crawler**: Automatically search for and retrieve the original source of the article.
-- **Scalable Rating System**: Provide a clear and concise rating for the article's credibility.
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/aditya06121/fact_checker.git
-   ```
-
-## Citation
-
-If you use this application in your research, please cite:
-[Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking](https://aclanthology.org/D17-1317/) (Rashkin et al., EMNLP 2017)
-
-## License
-
-This project is licensed under the MIT License.
+for creating new venv -> virtualenv .venv
+dumping to requirement file -> pip freeze > requirements.txt
+downloading from requirement file -> pip install -r requirements.txt
